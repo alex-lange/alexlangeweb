@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alex Lange</title>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-61172924-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row margin-md">
+        <h1>Semidefinite programming</h1>
+        <h2>SDPLR</h2>
+        <p>
+          Sam Burer released a special version of SDPLR specifically for MAXCUT problems. Below there are
+          links to both the package and a custom parameter file I used for larger graphs. Inside the tarball
+          there are instructions for how to compile the C code (it is a simple command) as well as information on
+          the format of the graph, the parameter file, and how to run the command.
+          <ul>
+          <li><a href="SDP-LR_v0.130301.tar.gz">SDP-LR_v0.130301.tar.gz</a></li>
+          <li><a href="p.571">custom parameter file</a></li>
+          </ul>
+        </p>
+        <h2>SBMethod</h2>
+        <p>
+          I could not find my source of SBMethod, but it looks like it is still available at
+          <a href="https://www-user.tu-chemnitz.de/~helmberg/SBmethod/" target="_blank">this link</a>.
+          I do remember that for very large graphs I had to edit the source code to use floats with
+          larger number of bits, but I doubt you will need to do this.
+        </p>
+    </div>
+  </body>
