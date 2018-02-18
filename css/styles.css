@@ -4,26 +4,43 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #565656;
-  background-color: #f6f6f6;
+  color: #5b1e55;
+  background-color: #F6B756;
 }
 h1 {
   font-family: 'Raleway', sans-serif;
   line-height: 60px;
-  /*color: #0F816B;*/
+  /*color: #1969A9;*/
+  color: #255984;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-/*h3 {
-  color: #000000;
-}*/
+
+.row {
+    padding-top: 25px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #24827b;
+}
+
+.white-box {
+    padding: 5px ;
+    background-color: #FFFFFF;
+}
+
+
 a {
-  color: #0F816B;
+  color: #F45B46;
   text-decoration: none;
 }
 a:hover,
 a:focus {
   /*color: #0A5A5E;*/
   /*color: #119ca3;*/
-  color: #05251f;
+  color: #9C2A26;
   text-decoration: underline;
 }
 a:focus {
@@ -38,14 +55,36 @@ a:focus {
 .margin-md {
   margin: 20px !important;
 }
+.margin-hor-lg {
+  margin-left: 60px !important;
+  margin-right: 60px !important;
+}
 .circle {
   width: 250px;
   height: 250px;
   margin: auto;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #0a5345;
+  border: 2px solid #1969A9;
+  background: white;
 }
 .img-circle {
   width: 100%;
+}
+.icons {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  margin: auto;
+  border: 2px solid #1969A9;
+}
+.vert-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+i {
+  padding: 2px;
 }
